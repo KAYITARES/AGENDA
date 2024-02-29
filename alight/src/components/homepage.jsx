@@ -66,7 +66,7 @@ function HomePage() {
         <Carousel afterChange={onChange} autoplay>
         <div>
       <div style={contentStyle}>
-      <h1>INNOVATE</h1>
+      <h1>Background</h1>
       <div className="teso">
 
         <img src={home} alt="home"/>
@@ -81,7 +81,7 @@ function HomePage() {
       </div>
       <div>
       <div style={contentStyle}>
-      <h1>TRANSFORM</h1>
+      <h1>Membership</h1>
       <div className="teso">
 
         <img src="https://iac-now.com/wp-content/uploads/2023/05/icon-pro-bono-healthcare-innovation-consulting.png" alt="home"/>
@@ -96,7 +96,7 @@ function HomePage() {
       </div>
       <div>
       <div style={contentStyle}>
-      <h1>CONNECT</h1>
+      <h1>Definition of Roles</h1>
       <div className="teso">
 
         <img src="https://www.itpedia.nl/wp-content/uploads/2018/07/wifi.png" alt="home"/>
