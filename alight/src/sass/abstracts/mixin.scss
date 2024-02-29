@@ -1,0 +1,14 @@
+@mixin flexs($justfyContent,$alignItems,$gap){
+    display: flex;
+    justify-content: $justfyContent;
+    align-items: $alignItems;
+    gap: $gap;
+
+}
+@mixin button ($bg-color,$color){
+    padding: 1rem 2rem;
+    background: $bg-color;
+    color: $color;
+    border: none;
+    border-radius: .4rem;
+}
