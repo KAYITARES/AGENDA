@@ -188,6 +188,7 @@ function HomePage() {
                     services and over 200,000 ideas for how to do better.{" "}
                   </p>
                 </div>
+                <h1>SESSION</h1>
                 <div className="session">
                 <div>
                 <div className="smart-container">
@@ -266,6 +267,7 @@ function HomePage() {
                     services and over 200,000 ideas for how to do better.{" "}
                   </p>
                 </div>
+                <h1>SESSION</h1>
                 <div className="session">
                 <div>
                 <div className="smart-container">
