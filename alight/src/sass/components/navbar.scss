@@ -1,13 +1,27 @@
 nav{
-    background-color: white;
+    width: 100%;
 
     .navBar{
     background-color: rgb(248, 248, 248);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1.5rem;
+  width: 100%;
+  .btn-nav{
+    background-color:#f3698c;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+    border-radius: 2rem;
+    transition: all .3s;
+    list-style: none;
 
+    &:hover{
+        background-color:#04aaed;
+    }
+}
     .logo{
         color: white;
     }
@@ -16,6 +30,8 @@ nav{
         align-items: center;
         gap: 2rem;
         list-style: none;
+        // margin: 0 10rem;
+        padding: 0 10rem;
         
 
         .link {
@@ -23,12 +39,13 @@ nav{
             border-right: 1px solid black;
             padding-right: 1rem;
             text-decoration: none;
-            color: rgb(14, 190, 248);
+            color: #f3698c;
             position: relative;
             transition: .3s;
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: "Montserrat", Sans-serif;
 
           
         
@@ -55,6 +72,7 @@ nav{
                 padding: 1rem;
                 display: none; 
                 width: 100%;
+                z-index: 999;
         
                 .linka {
                     text-decoration: none;
@@ -65,6 +83,7 @@ nav{
                     align-items: center;
                     position: relative;
                     color: #fbbb25;
+                    z-index: 999;
                 
                     &::after {
                         content: '';
@@ -109,7 +128,7 @@ nav{
            
         
 .btn-nav{
-    background-color: #f27c71;
+    background-color:#f3698c;
     padding: 1rem 4rem;
     text-decoration: none;
     color: #fff;
@@ -118,7 +137,7 @@ nav{
     transition: all .3s;
 
     &:hover{
-        background-color:rgb(14, 190, 248);
+        background-color:#04aaed;
     }
 }
        
@@ -196,7 +215,7 @@ nav{
                 left: 0;
                 top: 7.5rem;
                 transition: all .3s ease-out;
-              
+              z-index: 999;
                 width: 100%;
                 text-align: center;
              padding: 2rem;

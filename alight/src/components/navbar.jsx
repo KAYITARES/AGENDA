@@ -4,6 +4,8 @@ import logos from '../assets/logo.jpeg';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from "react";
+import Button from "@mui/material/Button";
+
 
 function NavBar(){
 
@@ -35,8 +37,11 @@ function NavBar(){
                 <li><Link className="linka">HOTEL</Link></li>
                 </div>
                 </Link></li>
-                <li><Link className="btn-nav">REGISTRATION</Link></li>
+                
             </ul>
+            <Button variant="contained" disableElevation className="btn-nav">
+                REGISTRATION
+              </Button>
             <div className="menu">
                 <MenuIcon className="menu-icon" onClick = {()=>setIsMobile(!isMobile)} />
             </div>
