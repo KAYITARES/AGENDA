@@ -1,0 +1,261 @@
+nav{
+    width: 100%;
+
+    .navBar{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  width: 100%;
+  .btn-nav{
+    background-color:#f3698c;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+    border-radius: 2rem;
+    transition: all .3s;
+    list-style: none;
+
+    &:hover{
+        background-color:#04aaed;
+    }
+}
+    .logo{
+        color: white;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+        // margin: 0 10rem;
+        padding: 0 10rem;
+        
+
+        .link {
+            font-size: 1.9rem;
+            border-right: 1px solid black;
+            padding-right: 1rem;
+            text-decoration: none;
+            color: #f3698c;
+            position: relative;
+            transition: .3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Montserrat", Sans-serif;
+
+          
+        
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: rgb(245, 203, 67);
+                transform: scaleX(0); 
+                transition: transform 0.3s ease; 
+            }
+        
+            &:hover::before {
+                transform: scaleX(1); 
+            }
+        
+            .drop-down {
+                position: absolute;
+                top: 100%;
+                background-color: white;
+                padding: 1rem;
+                display: none; 
+                width: 100%;
+                z-index: 999;
+        
+                .linka {
+                    text-decoration: none;
+                    padding: 1rem;
+                    font-size: 1.4rem;
+                    width: 100%;
+                    display: block; 
+                    align-items: center;
+                    position: relative;
+                    color: #fbbb25;
+                    z-index: 999;
+                
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 100%; 
+                        left: 0;
+                        width: 100%;
+                        height: 2px;
+                        background-color:rgb(14, 190, 248);
+                        transform: scaleX(0); 
+                        transition: transform 0.3s ease; 
+                    }
+                
+                    &:hover::after {
+                        transform: scaleX(1); 
+
+                    }
+                    &:hover{
+                        color: rgb(14, 190, 248);
+
+                    }
+                   
+                }
+                
+                
+            }
+        
+            &:hover .drop-down {
+                display: block; 
+            }
+            .ic{
+                font-size: 2.7rem;
+            }
+        }
+          @media (max-width: 1101px) {
+            .link{
+                font-size: 1.5rem;
+                
+            }
+             
+            }
+           
+        
+.btn-nav{
+    background-color:#f3698c;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+    border-radius: 2rem;
+    transition: all .3s;
+
+    &:hover{
+        background-color:#04aaed;
+    }
+}
+       
+    }
+    @media (max-width: 851px) {
+        .links{
+            display: none;
+            
+        }
+        .btn-nav{
+            background-color: #f27c71;
+            padding: 1rem 4rem;
+            text-decoration: none;
+            color: #fff;
+            font-size: medium;
+            border-radius: 2rem;
+            transition: all .3s;
+        
+            &:hover{
+                background-color:rgb(14, 190, 248);
+            }
+        }
+       
+         
+        }
+    .logo{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        span{
+            font-size: 1.6rem;
+            font-weight: bold;
+           color: #fbbb25;
+
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    @media (max-width: 1101px) {
+        .logo{
+            span{
+                display: none;
+            }
+            
+        }
+         
+        }
+        .menu-icon{
+            font-size: 2.9rem;
+            display: none;
+        }
+        @media (max-width: 851px) {
+            .menu-icon{
+                display: flex;
+            }
+.links{
+    background: green;
+}
+            .openNav{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                list-style: none;
+                background-color: white;
+                left: 0;
+                top: 7.5rem;
+                transition: all .3s ease-out;
+              z-index: 999;
+                width: 100%;
+                text-align: center;
+             padding: 2rem;
+            
+            }
+            .link, .linka{
+                color:rgb(14, 190, 248);
+                text-decoration: none;
+                font-size: 1.9rem;
+                line-height: 2rem;
+                
+                .drop-down{
+                    display: none;
+                   .linka{
+                    color: rgb(245, 203, 67);
+                    width: 100%;
+                    line-height: 6rem;
+                   &:hover{
+                    background-color: #eee;
+                    padding: 1rem;
+                    
+                   }
+                   }
+                
+                }
+                &:hover .drop-down{
+                    display: block;
+                    
+                }
+                
+            }
+           
+           
+            }
+            
+      
+}
+@media (max-width: 851px) {
+    .navBar{
+        justify-content: space-between;
+    }
+    }
+}
