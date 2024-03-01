@@ -31,7 +31,7 @@ function HomePage() {
     backgroundPosition: "50% 20%",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    height: "63vh",
+    // height: "63vh",
     backgroundColor: "black",
   };
   return (
