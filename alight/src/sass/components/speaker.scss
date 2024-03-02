@@ -1,0 +1,99 @@
+
+article{
+    
+        background-color: white;
+        background-image:linear-gradient(to bottom,#02abeede,#02abeeda), url('https://media.glassdoor.com/l/fb/c9/43/00/alight-team-at-workday-rising-2017.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    
+   
+    .heads{
+       
+        h1{
+            font-size: 3rem;
+            font-family: "popins", Sans-serif;
+            color: #eee;
+            text-align: center;
+            padding: 5rem 0 1rem;
+        }
+      h3{
+        font-size: 3rem;
+        font-family: "Montserrat", Sans-serif;
+        color: #eee;
+        text-align: center;
+        padding: 2rem 0 1rem;
+        font-weight: 600;
+      }
+
+    }
+.articles{
+    // display: grid;
+    // grid-template-columns: repeat(,1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 3rem 7rem;
+    .image{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        transition: all ease .3s;
+        .text{
+            text-align: center;
+            padding: 1rem;
+
+            h2{
+                font-size: 1.9rem;
+                color: #eee;
+            }
+            p{
+                font-size: 1.5rem;
+                padding: 1rem 0;
+                color: #fbbb25;
+                font-family: "Montserrat", Sans-serif;
+                font-weight: 900;
+            }
+        }
+     
+
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #fbbb25;
+        }
+        
+&:hover .name{
+    display: flex;
+
+    
+}
+    }
+    .name{
+        position: absolute;
+        top: 0;
+        background-color:  #f27c71c2;
+        width: 100%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #ffff;
+        font-size: 15px;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 600;
+        
+       
+    }
+
+}
+ 
+
+
+}
+
