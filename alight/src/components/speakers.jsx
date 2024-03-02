@@ -18,20 +18,26 @@ return (
 
      
             <div className="articles">
-           
-                <div className="image">
+           <div className="container">
+           <div className="image">
                     <img src="https://www.paulkagame.com/wp-content/uploads/2021/04/PaulKagame_Web.jpeg" alt="pk"/>
-                    <div className="text">
+                    <div className="name">
+                    <h3>H.E POUL KAGAME</h3>
+                </div>
+                    </div>
+                   
+                <div className="text">
                     <h2>H.E POUL KAGAME</h2>
                     <p>President Republic Of Rwanda chairman of FPR</p>
                     </div>
+           </div>
+                
+                   
                   
                 
-                <div className="name">
-                    <h3>H.E POUL KAGAME</h3>
-                </div>
-                </div>
-                <div className="image">
+                
+                
+                {/* <div className="image">
                     <img src="https://www.paulkagame.com/wp-content/uploads/2021/04/PaulKagame_Web.jpeg" alt="pk"/>
                     <div className="text">
                     <h2>H.E POUL KAGAME</h2>
@@ -88,12 +94,23 @@ return (
                     <h3>H.E POUL KAGAME</h3>
                 </div>
                 </div>
+                <div className="image">
+                    <img src="https://www.paulkagame.com/wp-content/uploads/2021/04/PaulKagame_Web.jpeg" alt="pk"/>
+                    <div className="text">
+                    <h2>H.E POUL KAGAME</h2>
+                    <p>President Republic Of Rwanda chairman of FPR</p>
+                    </div>
                 
-             
+                <div className="name">
+                    <h3>H.E POUL KAGAME</h3>
+                </div>
+                </div> */}
+                
+                </div>
                
                 
                 
-            </div>
+        
             
             
         </article>
