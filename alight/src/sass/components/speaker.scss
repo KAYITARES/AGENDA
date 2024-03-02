@@ -72,14 +72,17 @@ article{
             width: 100%;
             border-radius: 50%;
             height: 100%;
-            background-color: #fbbb25bd;
+            background-color: #0000008c;
             // width: fit-content;
-            display: flex;
+            display: none;
             justify-content: center;
             align-items: center;
+            transition: .5s;
+            font-size: 1.5rem;
+            color: #ffff;
         }
         &:hover .name{
-
+        display: flex;
         }
 
     }
