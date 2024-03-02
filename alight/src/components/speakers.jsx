@@ -1,5 +1,6 @@
 import React from "react";
-// import { Carousel } from "antd";
+// import { Spin } from 'antd';
+import { Skeleton } from 'antd';
 
 import { Image } from "antd";
 import records from '../assets/speakers/speaker.json'
@@ -28,6 +29,7 @@ return (
               <div className="container" key={records._id}>
               <div className="image" data-aos="zoom-in">
               <Image width = {'100%'} height={'100%'} src= {blogx.newsImage}/>
+             
               <div className="name">
                     <h3>{blogx.name}</h3>
                 </div>
@@ -43,22 +45,9 @@ return (
                     </div>
                 
           ))): (
-            <p>Loading...</p>
+            <Skeleton active/>
           )}
         
-           {/* <div className="container">
-           <div className="image">
-                    <img src="https://www.paulkagame.com/wp-content/uploads/2021/04/PaulKagame_Web.jpeg" alt="pk"/>
-                    <div className="name">
-                    <h3>H.E POUL KAGAME</h3>
-                </div>
-                    </div>
-                   
-                <div className="text">
-                    <h2>H.E POUL KAGAME</h2>
-                    <p>President Republic Of Rwanda chairman of FPR</p>
-                    </div>
-           </div> */}
                 
                 </div>
                

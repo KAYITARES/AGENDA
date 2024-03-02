@@ -57,6 +57,26 @@
         "__v": 0
       },
 
+      {
+        "_id": "65168f4182ac6af88f963806",
+        "name": " POMBE MAGUFURI",
+        "title": " POMBE MAGUFURI",
+        "description": "president of TANZANIA",
+        "newsImage": [
+          "https://cdn09.allafrica.com/download/pic/main/main/csiid/00541569:4c53a6f25199d60e5f9057834327b30f:arc614x376:w735:us1.jpg"
+        ],
+        "publisher": "franklin ndanyuzwe",
+        "category": {
+          "_id": "65168d3e12e14458686de9f2",
+          "categoryName": "politics"
+        },
+        "postedAt": "2023-09-29T08:47:02.089Z",
+        "likes": [],
+        "dislikes": [],
+        "comment": [],
+        "__v": 0
+      },
+
     {
       "_id": "6516acd20aca63b696551952",
       "name": " DONALD TRUMP",

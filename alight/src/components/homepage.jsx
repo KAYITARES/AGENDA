@@ -16,7 +16,6 @@ const contentStyle = {
   height: "auto",
   color: "#000",
   lineHeight: "19px",
-  textAlign: "center",
   background: "#FFFF",
   padding: "50px 10px 50px",
 };

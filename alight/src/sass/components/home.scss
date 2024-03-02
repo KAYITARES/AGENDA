@@ -114,20 +114,34 @@ color: white;
         }
        
     }
+
+    @media screen and (max-width:755px) {
+        .teso{
+            flex-direction: column;
+            align-items: normal;
+        }
+      
+    }
     .heads{
         color:  #f27c71;
         font-family: "Montserrat", Sans-serif;
         padding: 0 0 1.6rem;
+        text-align: center;
     }
     p{
         color: rgb(12, 12, 12);
         font-family: "Work Sans";
         white-space: normal;
-        text-align: center;
+        // text-align: center;
         font-weight: 400;
     }
 .content{
     background-color: #f27c71;
+    // text-align: center;
+    h1{
+        text-align: center;
+        padding: 1rem;
+    }
     .btn-home{
         background-color:#f3698c;
         padding: 1rem 4rem;
@@ -139,6 +153,7 @@ color: white;
         list-style: none;
     }
 }
+
 .session{
 
     display: flex;
